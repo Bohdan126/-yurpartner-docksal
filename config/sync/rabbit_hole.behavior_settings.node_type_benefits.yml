@@ -1,0 +1,11 @@
+uuid: 2ad359a7-ecf5-4ff9-9b86-62fbd0b98228
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.benefits
+id: node_type_benefits
+action: page_not_found
+allow_override: 1
+redirect: ''
+redirect_code: 301

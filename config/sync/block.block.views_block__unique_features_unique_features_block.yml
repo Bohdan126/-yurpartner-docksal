@@ -1,0 +1,24 @@
+uuid: c19dec79-d7e8-4e45-b96b-09710a8b1e14
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.unique_features
+  module:
+    - views
+  theme:
+    - corporate_lite
+id: views_block__unique_features_unique_features_block
+theme: corporate_lite
+region: featured_bottom
+weight: 0
+provider: null
+plugin: 'views_block:unique_features-unique_features_block'
+settings:
+  id: 'views_block:unique_features-unique_features_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: 661e2d8c-de52-48c3-8b33-9d1027cbdb45
+langcode: en
+status: true
+dependencies:
+  module:
+    - copyright_block
+    - language
+  theme:
+    - corporate_lite
+id: copyrightblock
+theme: corporate_lite
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: 'Copyright block'
+  provider: copyright_block
+  label_display: '0'
+  start_year: '2011'
+  separator: '-'
+  text:
+    value: "<p><em>Copyright ©</em>[copyright_statement:dates]<br />\r\nMade by <a href=\"https://www.facebook.com/profile.php?id=100017334785880\">Bohdan Mykhalchuk</a></p>\r\n"
+    format: basic_html
+  seperator: '-'
+visibility:
+  language:
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'

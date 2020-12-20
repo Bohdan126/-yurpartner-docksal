@@ -1,0 +1,23 @@
+uuid: c76f62fa-81ea-4e4e-b860-25c5168016a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - corporate_lite
+id: sitebranding
+theme: corporate_lite
+region: sub_footer_first
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

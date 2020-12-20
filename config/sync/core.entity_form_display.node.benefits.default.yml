@@ -1,0 +1,60 @@
+uuid: fd29fc7e-5524-431d-86b7-4192179dabce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.benefits.body
+    - field.field.node.benefits.field_logo
+    - node.type.benefits
+  module:
+    - fontawesome
+    - text
+id: node.benefits.default
+targetEntityType: node
+bundle: benefits
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_logo:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: fontawesome_icon_widget
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

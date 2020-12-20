@@ -1,0 +1,24 @@
+uuid: 829f1d5d-486d-4c07-827d-422d498fa3df
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.banner
+  module:
+    - views
+  theme:
+    - corporate_lite
+id: views_block__banner_banner_block
+theme: corporate_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:banner-banner_block'
+settings:
+  id: 'views_block:banner-banner_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

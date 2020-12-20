@@ -1,0 +1,25 @@
+uuid: 1a34127c-d357-4be8-a92c-35cb1449687a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a082de23-f4af-45cf-9280-3c178a212cd9'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: backgroundimageblock
+theme: corporate_lite
+region: featured
+weight: 0
+provider: null
+plugin: 'block_content:a082de23-f4af-45cf-9280-3c178a212cd9'
+settings:
+  id: 'block_content:a082de23-f4af-45cf-9280-3c178a212cd9'
+  label: 'Background Image Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: f8db59af-bb13-4080-af16-bdb108b9522d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:42453ce8-1681-477f-bbf3-f4b0ee5d002e'
+  module:
+    - block_content
+  theme:
+    - corporate_lite
+id: headerlogo
+theme: corporate_lite
+region: header_first
+weight: 0
+provider: null
+plugin: 'block_content:42453ce8-1681-477f-bbf3-f4b0ee5d002e'
+settings:
+  id: 'block_content:42453ce8-1681-477f-bbf3-f4b0ee5d002e'
+  label: 'Header Logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

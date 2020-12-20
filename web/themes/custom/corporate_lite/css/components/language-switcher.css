@@ -1,0 +1,39 @@
+/**
+ * @file
+ * Visual styles for Corporate Lite's language switcher.
+ */
+@media (min-width:768px) {
+  .region-header-top-second {
+    position: relative;
+  }
+
+  .language-switcher-language-url {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+}
+
+.block-language ul {
+  padding-left: 0;
+  list-style: none;
+}
+.block-language ul li {
+  padding: 5px 10px 5px 20px;
+  position: relative;
+  display: inline;
+  font-size: 2rem;
+}
+.block-language ul li:before {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 10px;
+}
+
+/*.block-language ul li:before {
+  content: "\f0da";
+  font-size: 12px;
+}*/

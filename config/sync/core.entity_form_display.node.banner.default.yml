@@ -1,0 +1,53 @@
+uuid: a93bcbe7-69d0-46a3-a2e9-64362993b58e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.banner.body
+    - field.field.node.banner.field_image
+    - image.style.thumbnail
+    - node.type.banner
+  module:
+    - image
+id: node.banner.default
+targetEntityType: node
+bundle: banner
+mode: default
+content:
+  field_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 2
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

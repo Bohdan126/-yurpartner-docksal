@@ -1,0 +1,21 @@
+uuid: 261fc142-b800-4da3-a494-8d05215b884c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  title: '[site:name]'
+  canonical_url: '[site:url]'
+  og_url: '[site:url]'
+  og_site_name: '[site:name]'
+  og_type: website
+  og_locale: en_US
+  og_title: '[site:name]'
+  twitter_cards_page_url: '[site:url]'
+  twitter_cards_description: '[site:slogan]'
+  twitter_cards_site: '@yurpartner'
+  twitter_cards_type: summary
+  twitter_cards_title: '[site:name]'

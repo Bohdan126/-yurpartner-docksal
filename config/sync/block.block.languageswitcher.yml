@@ -1,0 +1,20 @@
+uuid: a65c741a-0576-4e74-86fb-03bf6026f16d
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - corporate_lite
+id: languageswitcher
+theme: corporate_lite
+region: header_top_second
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: '0'
+visibility: {  }

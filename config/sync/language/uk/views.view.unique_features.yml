@@ -1,0 +1,9 @@
+label: 'Відмінні Риси'
+display:
+  unique_features_block:
+    display_title: 'Відмінні Риси'
+    display_options:
+      block_description: 'Відмінні Риси'
+  default:
+    display_options:
+      title: 'Відмінні Риси'

@@ -1,0 +1,14 @@
+uuid: b06abb33-2049-4359-97f8-182dccda8dd7
+langcode: en
+status: true
+dependencies: {  }
+name: yurpartner_flexslider
+label: 'Yurpartner Flexslider (1920x640)'
+effects:
+  b40f12bd-bf9b-4a4f-a0d2-157bb11fad38:
+    uuid: b40f12bd-bf9b-4a4f-a0d2-157bb11fad38
+    id: image_resize
+    weight: 1
+    data:
+      width: 1920
+      height: 640

@@ -1,0 +1,24 @@
+uuid: 95233561-f246-4f2d-9b8f-2bf8c6a9f746
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.benefit
+  module:
+    - views
+  theme:
+    - corporate_lite
+id: benefits
+theme: corporate_lite
+region: content_top
+weight: 0
+provider: null
+plugin: 'views_block:benefit-block_benefits'
+settings:
+  id: 'views_block:benefit-block_benefits'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

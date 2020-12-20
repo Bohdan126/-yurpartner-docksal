@@ -1,0 +1,35 @@
+uuid: 850c9496-e576-4236-9d3c-094e96bbc539
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.benefits.body
+    - field.field.node.benefits.field_logo
+    - node.type.benefits
+  module:
+    - fontawesome
+    - text
+    - user
+id: node.benefits.default
+targetEntityType: node
+bundle: benefits
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_logo:
+    weight: 0
+    label: hidden
+    settings:
+      layers: false
+    third_party_settings: {  }
+    type: fontawesome_icon_formatter
+    region: content
+hidden:
+  langcode: true
+  links: true
