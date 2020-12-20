@@ -6,6 +6,13 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+.block-views-blockunique-features-unique-features-block  .views-field-body ul {
+  text-align: left;
+  line-height: 30px;
+  list-style-image: url("/themes/custom/corporate_lite/images/check.png");
+}
+
 .feature__icon {
   width: 160px;
   height: 160px;
