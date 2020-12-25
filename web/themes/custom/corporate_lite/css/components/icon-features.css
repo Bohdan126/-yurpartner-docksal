@@ -13,6 +13,11 @@
   list-style-image: url("/themes/custom/corporate_lite/images/check.png");
 }
 
+.block-views-blockunique-features-unique-features-block  .views-field-body ol {
+  text-align: left;
+  line-height: 25px;
+}
+
 .feature__icon {
   width: 160px;
   height: 160px;
