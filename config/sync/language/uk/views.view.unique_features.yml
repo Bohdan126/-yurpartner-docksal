@@ -1,9 +1,9 @@
-label: 'Відмінні Риси'
+label: 'Наші спеціалізації'
 display:
   unique_features_block:
-    display_title: 'Відмінні Риси'
+    display_title: 'Наші спеціалізації'
     display_options:
-      block_description: 'Відмінні Риси'
+      block_description: 'Наші спеціалізації'
   default:
     display_options:
-      title: 'Відмінні Риси'
+      title: 'Наші спеціалізації'
