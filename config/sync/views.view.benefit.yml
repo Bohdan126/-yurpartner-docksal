@@ -232,7 +232,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Why choose us'
+      title: 'About us'
       header: {  }
       footer: {  }
       empty: {  }

@@ -296,7 +296,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-      title: 'Unique Features'
+      title: 'Our specialization'
       header: {  }
       footer: {  }
       empty: {  }
