@@ -280,11 +280,53 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-      sorts:
-        created:
-          id: created
+        langcode:
+          id: langcode
           table: node_field_data
-          field: created
+          field: langcode
+          relationship: none
+          group_type: group
+          admin_label: ''
+          operator: in
+          value:
+            '***LANGUAGE_language_interface***': '***LANGUAGE_language_interface***'
+          group: 1
+          exposed: false
+          expose:
+            operator_id: ''
+            label: ''
+            description: ''
+            use_operator: false
+            operator: ''
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: ''
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+            reduce: false
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
+          entity_type: node
+          entity_field: langcode
+          plugin_id: language
+      sorts:
+        changed:
+          id: changed
+          table: node_field_data
+          field: changed
           relationship: none
           group_type: group
           admin_label: ''
@@ -294,7 +336,7 @@ display:
             label: ''
           granularity: second
           entity_type: node
-          entity_field: created
+          entity_field: changed
           plugin_id: date
       title: 'Our specialization'
       header: {  }
