@@ -18,7 +18,7 @@ settings:
   label: 'Copyright block'
   provider: copyright_block
   label_display: '0'
-  start_year: '2011'
+  start_year: '2008'
   separator: '-'
   text:
     value: "<p><em>Copyright ©</em>[copyright_statement:dates]<br />\r\nMade by <a href=\"https://www.facebook.com/profile.php?id=100017334785880\">Bohdan Mykhalchuk</a></p>\r\n"
