@@ -1,0 +1,11 @@
+uuid: 24093b02-76b4-4c03-8256-27aa013cf897
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pu2tnTIZRlkkRZxbhVQU0L3FYniVvYFXIe6iCH9kXHo
+id: bing
+label: Bing
+url: 'https://www.bing.com/ping?sitemap=[sitemap]'
+sitemap_variants: {  }
+last_submitted: null

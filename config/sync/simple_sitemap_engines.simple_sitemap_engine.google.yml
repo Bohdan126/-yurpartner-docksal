@@ -1,0 +1,11 @@
+uuid: 0916d016-cecd-4372-a7d4-ebe1cfc4c34f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PS-z03VbhvMPW8pe7N_Pya5JDfVm1mL_F07cJ_srmYE
+id: google
+label: Google
+url: 'https://www.google.com/ping?sitemap=[sitemap]'
+sitemap_variants: {  }
+last_submitted: null

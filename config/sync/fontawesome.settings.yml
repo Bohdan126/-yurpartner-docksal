@@ -11,3 +11,4 @@ use_brands_file: true
 external_svg_integrity: null
 _core:
   default_config_hash: LqU6g2X_toBKUWDJkmcOVYFxMHnWHXImIrkkqmGVAlg
+langcode: uk
