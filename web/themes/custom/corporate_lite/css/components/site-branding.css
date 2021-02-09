@@ -17,6 +17,12 @@
   height: 50px;
 }
 
+@media (max-width: 767px) {
+  .logo img {
+    height: auto;
+  }
+}
+
 .logo-centered {
   float: none;
   text-align: center;
