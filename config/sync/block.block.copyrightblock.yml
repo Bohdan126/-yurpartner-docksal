@@ -21,8 +21,8 @@ settings:
   start_year: '2008'
   separator: '-'
   text:
-    value: "<p><em>Copyright ©</em>[copyright_statement:dates]<br />\r\nMade by <a href=\"https://www.facebook.com/profile.php?id=100017334785880\">Bohdan Mykhalchuk</a></p>\r\n"
-    format: basic_html
+    value: "<p><em>Copyright ©</em>[copyright_statement:dates]<br />\r\nMade by <a href=\"https://www.facebook.com/profile.php?id=100017334785880\">Bohdan Mykhalchuk</a></p>\r\n\r\n<h1 style=\"visibility: hidden\">Yurpartner - law company</h1>\r\n"
+    format: full_html
   seperator: '-'
 visibility:
   language:
