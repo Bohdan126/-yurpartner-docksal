@@ -7,15 +7,15 @@ _core:
 id: front
 label: 'Front page'
 tags:
+  canonical_url: '[site:url]'
+  robots: index
   keywords: '[site:name], [site:slogan]'
   shortlink: '[site:url]'
-  robots: index
+  description: 'Команда адвокатів для бізнесу.'
   title: '[site:name]'
-  canonical_url: '[site:url]'
-  description: '[site:slogan]'
   og_image: '[site:logo:active-theme:url]'
   og_description: '[site:slogan]'
   og_title: '[site:name]'
+  twitter_cards_image: '[site:logo:active-theme:url]'
   twitter_cards_description: '[site:slogan]'
   twitter_cards_title: '[site:name]'
-  twitter_cards_image: '[site:logo:active-theme:url]'
