@@ -65,3 +65,8 @@
 .region--no-block-paddings .block + .block {
   padding: 0;
 }
+
+#block-views-block-office-photos-block-1 img {
+  margin-bottom: 40px;
+  box-shadow: 0 3px 10px #000000;
+}

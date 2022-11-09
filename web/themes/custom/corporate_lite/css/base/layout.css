@@ -10,9 +10,6 @@
 .region--gray-background {
   background-color: #f5f5f5;
 }
-.region--black-background {
-  background-color: #1d1d1d;
-}
 .region--white-pattern {
   background-image: url('../../images/white-pattern.png');
   background-repeat: repeat;

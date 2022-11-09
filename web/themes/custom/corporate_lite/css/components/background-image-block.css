@@ -26,6 +26,11 @@
   padding: 90px 0;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .background-image-block__section {
+    padding: 40px 0;
+  }
+}
 .background-image {
   position: absolute;
   top: 0;
