@@ -1,21 +1,21 @@
-uuid: 829f1d5d-486d-4c07-827d-422d498fa3df
+uuid: 3e79c2dd-38aa-4d52-a9b3-0812f586435f
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - views.view.banner
+    - views.view.office_photos
   module:
     - views
   theme:
     - corporate_lite
-id: views_block__banner_banner_block
+id: views_block__office_photos_block_1
 theme: corporate_lite
 region: banner
 weight: 0
 provider: null
-plugin: 'views_block:banner-banner_block'
+plugin: 'views_block:office_photos-block_1'
 settings:
-  id: 'views_block:banner-banner_block'
+  id: 'views_block:office_photos-block_1'
   label: ''
   provider: views
   label_display: '0'

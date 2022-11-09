@@ -1,2 +1,4 @@
 tags:
   description: 'Lawyers team for business.'
+  canonical_url: '[site:url]'
+  title: '[site:name]'
